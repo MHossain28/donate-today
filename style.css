@@ -1,10 +1,11 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    background-color: rgb(255, 234, 234);
 }
 /* first-banner */
 .first-banner{
-    background-image: url(images/poor.png);
+    background-image: url(images/dulana-kodithuwakku-0R-rPOSUyxw-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
@@ -21,12 +22,16 @@ body{
 #first-banner-text-main{
     font-size: 40px;
 }
+.first-banner-text div {
+    margin-top: 40px;
+}
 #first-banner-button{
     text-decoration: none;
     font-size: 20px;
+    margin-top: 20px;
     color: white;
-    background-color: tomato;
-    padding: 10px 15px;
+    background-image: linear-gradient(tomato, red);
+    padding: 15px 15px;
     border-radius: 10px;  
 }
 
@@ -79,8 +84,8 @@ body{
 #amount-main-button{
     text-decoration: none;
     color: white;
-    background-color: tomato;
-    padding: 10px;
+    background-image: linear-gradient(tomato, red);
+    padding: 15px;
     margin-top: 10px;
     border-radius: 10px;
 }
@@ -112,6 +117,12 @@ hr{
     justify-content: space-evenly;
     border-radius: 10px;
 }
+.first-card{
+    background-color: rgb(184, 238, 238);
+}
+.third-card{
+    background-color: rgb(251, 214, 169);
+}
 /* fourth banner  */
 .fourth-banner-main{
     margin-top: 80px;
@@ -124,12 +135,13 @@ hr{
     margin-right: 5%;
     margin-top: 20px;
     color: rgb(85, 78, 78);
+    text-align: justify;
 }
 #fourth-banner-button{
     text-decoration: none;
     padding: 10px 15px;
     color: white;
-    background-color: tomato;
+    background-image: linear-gradient(tomato, red);
     border-radius: 10px;
     margin-bottom: 60px;
 }
@@ -140,6 +152,32 @@ hr{
     margin-right: 5%;
     height: 100%;
     margin-top: 8px;
+    margin-top: 20px;
+}
+/* fifth-banner-card */
+.fifth-banner-card-main{
+    margin-top: 100px;
+
+}
+.fifth-banner-card{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 20px;
+   
+    
+}
+.fifth-banner-card img{
+    width: 90%;
+    border-radius: 10px;
+}
+.fifth-banner-card div{
+    width: 25%;
+    background-color: rgb(235, 199, 199);
+    padding: 10px;
+    padding-top: 15px;
+    border-radius: 10px;
+    
 }
 /* update */
 .update-main{
